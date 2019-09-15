@@ -106,3 +106,21 @@ body {
     border: 3px 3px 3px #252F48;
     border-radius: 25px;
 }
+
+.characters {
+    margin-left: 30%;
+    background: #252F48;
+    opacity: 0.9;
+    width: 20%;
+    text-align: center;
+    border: 3px 3px 3px #252F48;
+    border-radius: 25px;
+}
+
+.table_dark.char {
+    width: 80%;
+}
+
+.user_div.char {
+    margin-left: 10%
+}
