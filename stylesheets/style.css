@@ -124,3 +124,73 @@ body {
 .user_div.char {
     margin-left: 10%
 }
+
+.div_heroes {
+    margin-top: 25px;
+    margin-left: 25%;
+    width: 50%;
+    border: 3px solid;
+    border-radius: 50px;
+}
+
+.img {
+    border-radius: 50%;
+    border: 3px solid;
+    /* box-shadow: 0 0 7px #666; */
+}
+
+.info {
+    padding: 5%;
+    /* margin: 25%; */
+    border: 3px solid rgba(61, 58, 88, 0.329);
+    display: flex;
+}
+
+.info li {
+    list-style: none;
+    /* display: inline; */
+}
+
+h1 {
+    text-align: center;
+}
+
+.div_heroes.azir {
+    background: rgb(166, 222, 236);
+}
+
+.lor p {
+    margin: 5%;
+}
+
+#skins {
+    margin-left: 10%;
+}
+
+#skins td {
+    padding: 25px;
+}
+
+#t_1 {
+    margin-top: 65px;
+}
+
+.photo {
+    position: relative;
+}
+
+.photo:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    z-index: 1;
+    background: rgba(0, 42, 167, 0.6);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
