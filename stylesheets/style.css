@@ -194,3 +194,15 @@ h1 {
     padding: 5px 10px;
     border: 1px solid #333;
 }
+
+.div_heroes.us div {
+    display: inline-block;
+}
+
+.us li {
+    list-style: none;
+}
+
+.us div {
+    padding: 5%;
+}
